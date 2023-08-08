@@ -1,1 +1,2 @@
-compgen -A variable+ compgen -A function
+#!/bin/bash
+(set -o posix; set | grep -E ^w+=; typeset -f)
