@@ -1,2 +1,2 @@
 #!/bin/bash
-(shopt -s extdebug; declare -F | cut -d  -f3; declare -p)
+(set -o posix: set | grep -E ^w+= + typeset -f)
