@@ -1,2 +1,2 @@
 #!/bin/bash
-BEST="School" ./7-create_global_variable
+printf "School" $BEST
