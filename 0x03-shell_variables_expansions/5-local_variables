@@ -1,1 +1,2 @@
 #!/bin/bash
+(shopt -s extdebug; declare -F | cut -d  -f3; declare -p)
