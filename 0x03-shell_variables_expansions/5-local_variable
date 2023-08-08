@@ -1,0 +1,1 @@
+compgen -A variable+ compgen -A function
