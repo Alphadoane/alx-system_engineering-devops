@@ -1,2 +1,2 @@
 #!/bin/bash
-printf "School" $BEST
+printf "BEST=School" $BEST
